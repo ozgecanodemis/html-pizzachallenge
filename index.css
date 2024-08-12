@@ -1,0 +1,42 @@
+:root {
+  --sari: #FDC913;
+  --acik-gri: #5F5F5F;
+  --koyu-gri: #292929;
+  --kirmizi: #CE2829;
+  --bej: #FAF7F2;
+}
+
+body {
+  color: white;
+}
+
+h1{
+  width: 361.93px;
+  height: 45.79;
+
+}
+
+header p {
+  background-color: var(--kirmizi);
+  Width: 398px;
+Height :368px;
+Top:6px;
+gap:0px;
+opacity:0px;
+font-size:3rem;
+}
+header{
+  background-color: var(--kirmizi);
+  Width: 585.13px;
+Height :1080.53px;
+Top:6px;
+gap:0px;
+opacity:0px;
+
+font-family: Roboto Condensed;
+}
+
+@media sc (max-width: 580px)
+body {
+min-width:300px;
+}
