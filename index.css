@@ -1,7 +1,4 @@
-* {
-  border: solid green ;
-  background-color: gray;
-}
+
 :root {
   --sari: #FDC913;
   --acik-gri: #5F5F5F;
@@ -66,19 +63,117 @@ header img {
 
 }
 
-section {
+.menu-section {
   margin-top: 110px;
- width: 400px;
+  width: 400px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-left: 90px;
+  color:var(--koyu-gri);
+
 }
 
 .menu-items{
 margin: 25px;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: var(--bej);
+  gap: 15px;
+  
+}
+
+.cards button {
+  background-color: var(--bej);
+  color:var(--kirmizi);
+  border-radius: 50px;
+  width: 138px;
+  height: 48px;
+  border: none;
+}
+.card-1 {
+background-image: url(/public/assets/iteration-2/cta/kart-1.png);
+background-size:cover;
+background-repeat: no-repeat;
+background-position:center;
+height: 336px;
+width: 422px;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+padding-left: 30px;
+
+}
+
+.card-1 h3{
+  font-size: 68px;
+  width: 288px;
+  color: var(--bej);
+  font-family: Quattrocento, serif;
+  margin-bottom: 0;
+  margin-top: 30px;;
+} 
+
+.card-1 p {
+  font-family: Barlow, sans-serif;
+  font-size: 20px;
+}
+
+
+
+.card-2 {
+  background-image: url(/public/assets/iteration-2/cta/kart-2.png);
+  background-size:80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #292929;
+  height: 336px;
+  width: 422px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  }
+  
+  .card-2 h3{
+    font-family: Barlow, sans-serif;
+    font-size: 32px;
+    width: 200px;
+    color: var(--bej);
+    margin-top: 70px;
+    font-weight: 400;
+  } 
+  
+  
+  .card-3 {
+    background-image: url(/public/assets/iteration-2/cta/kart-3.png);
+    background-size:cover;
+    background-position:center;
+    height: 220px;
+    width: 422px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    }
+
+  .card-3 h3{
+    font-family: Barlow, sans-serif;
+    font-size: 32px;
+    width: 240px;
+    color: black;
+    margin-top: 30px;
+    height: 88px;
+    font-weight: 600;
+  } 
+  
+ 
 @media (max-width: 580px)
 body {
 min-width:300px;
