@@ -89,13 +89,13 @@ margin: 25px;
   
 }
 
-.cards button {
+.cards a {
   background-color: var(--bej);
   color:var(--kirmizi);
   border-radius: 50px;
-  width: 138px;
-  height: 48px;
+  padding: 12px;
   border: none;
+  text-decoration: none;
 }
 .card-1 {
 background-image: url(/public/assets/iteration-2/cta/kart-1.png);
@@ -116,13 +116,14 @@ padding-left: 30px;
   width: 288px;
   color: var(--bej);
   font-family: Quattrocento, serif;
-  margin-bottom: 0;
+  margin-bottom:0;
   margin-top: 30px;;
 } 
 
 .card-1 p {
   font-family: Barlow, sans-serif;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 
