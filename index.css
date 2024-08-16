@@ -1,6 +1,4 @@
 
-
-
   :root {
     --sari: #FDC913;
     --acik-gri: #5F5F5F;
@@ -13,6 +11,7 @@
   body {
     color: white;
     margin: 0%;
+    width: 540px;
 
   }
 
@@ -47,7 +46,7 @@
 
   header{
     background-color: var(--kirmizi);
-    Width: 585.13px;
+    Width: 540.13px;
   Height :1080.53px;
   font-family: "Roboto Condensed", sans-serif;
   }
@@ -70,11 +69,11 @@
     margin-top: 110px;
     width: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-left: 90px;
+    margin-left: 70px;
     color:var(--koyu-gri);
-  text-decoration: none;
+   text-decoration: none;
   }
 
   .menu-items{
@@ -209,22 +208,22 @@
         margin-top: 110px;
         width: 400px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        margin-left: 90px;
         color:var(--koyu-gri);
         background-color:  var(--bej);
         background-size: cover;
         padding: 98px;
         margin: 0;  
-
         a:hover {
           background-color: black;
           height: 10px;
             color: white;
             border-radius: 50px;
-            
-        }
+            padding: 15px;
+
+    }
+        
         }
       
 
@@ -236,8 +235,10 @@
           padding: 10px;
           border-radius: 50px ;
           margin-top: 0px;
-      }
 
+         
+    }
+      
   .yemekler {
     display: flex;
     flex-direction: column;
@@ -275,9 +276,7 @@
     text-decoration: none;
     align-items: center;
     padding-left: 40px;
- 
-
-
+    border-top: var(--koyu-gri) solid;
   }
 
   footer h1 {
@@ -308,6 +307,10 @@ padding: 3px;
 
 }
 
+.insta {
+  width: 400px;
+}
+
 .info {
   display: flex;
   align-items: baseline;
@@ -316,8 +319,4 @@ padding: 3px;
   width: 350px;
 
 }
-  @media (max-width: 580px)
-  body {
-  min-width:300px;
-  }
 
