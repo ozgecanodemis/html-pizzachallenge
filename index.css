@@ -21,13 +21,13 @@
   h1{
     width: 350.93px;
     height: 45.79px;
-  font-family:Arial, Helvetica, sans-serif;
+
   display:flex;
   justify-content: center;
   margin-top: 120px;
-  font-family: "Londrina Solid", sans-serif;
+  font-family: "Londrina Solid";
   font-size:45px;
-  color:var(--bej)
+  color:var(--bej);
   }
 
   header p {
@@ -38,7 +38,7 @@
   font-weight: 300;
   text-align: center;
   line-height: 92px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   margin-top: 10px;
   color:var(--bej)
   }
@@ -47,7 +47,12 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  }
+  background-image: url(https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZA1BTpO-ZAKR74wRI9jYyvNYBF3X2Nio-slH3SxdWBpBumNdEz8aDOZsiJJbq0tU47rJVIzKnwalV~AV21mYT3~GwUJY4jitKnR380es2Vctrq7DCK2Ahtkh-bqRhfHohT288bJWzBEbRoCj0A6hK8MfX4yJf1AcVS8Mkpx7lkOshkGDbNbvBZo1U3ZTvFayBXQi-64EXezi18P72MiKYb1x0ZA8EKJG~aJEe8~t50nEPTPnRGCDiJk1sle5yZeaN3PXil5xjBdBTrNE4P2LrQweJ2OKMfgj9qGy4WSd05ZIerwDvLw3U8s1yAW9OYASHJWGEzbpqw2V40-Cv9l9kA__);
+  background-repeat:no-repeat;
+  background-position:bottom center;
+  background-size: 202%;
+  
+}
 
   header{
     background-color: var(--kirmizi);
@@ -73,25 +78,26 @@
   }
 
   .menu-section {
-    margin-top: 110px;
+    margin: 20px;
+    margin-left: 110px;
     width: 300px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 70px;
     color:var(--koyu-gri);
    text-decoration: none;
-   padding: 50px;
-   gap: 20px;
+   gap: 30px;
+   align-items: center;
    
   }
 
   .menu-section div {
     display: flex;
     gap: 7px;
-    align-items: baseline;
     font-family: Barlow,sans-serif;
     font-size: 18px;
+    align-items: center;
+    width: 100px;
   }
 
 
@@ -114,6 +120,7 @@
     border: none;
     text-decoration: none;
   }
+  
   .card-1 {
   background-image: url(/public/assets/iteration-2/cta/kart-1.png);
   background-size:cover;
@@ -225,48 +232,49 @@
   
 
       .menu-section1 {
-        width: 440px;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
         color:var(--koyu-gri);
         background-color:  var(--bej);
-        background-size: cover;
-        padding: 50px;
-        margin: 0;  
+        align-items: center;
+        gap: 2rem;
     }
-    
+    .menu-div {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color:var(--koyu-gri);
+      background-color:  var(--bej);
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+      margin-left: 50px;
+      
+     
+  }
         
-    .menu-section1 div {
+    .menu-section1 button {
       display: flex;
       justify-content: space-evenly;
-      gap: 20px;
-      align-items: baseline;
       font-family: Barlow, sans-serif;
       font-weight: 600;
       font-size: 18px;
-      padding: 3px;
-      margin: 5px;
-      a:hover {
-        background-color:var(--koyu-gri);
-        height: 10px;
-          color: white;
-          border-radius: 50px;
-          padding: 20px;
-  }
+      padding: 10px;;
+      align-items: center;
+     border: white;
+      background-color: white;
+      border-radius: 50px;
     }
 
-    
-      .menu-section1 .menu-items {
-        text-decoration:none;
-        background-color: white;
-          color: black;
-          padding: 10px;
-          border-radius: 50px ;
-          margin-top: 0px;
-         
-    }
       
+    .menu-section1 button:hover {   
+      background-color:var(--koyu-gri);
+        color: white;
+        transition-duration: 0.4s;
+}
   .yemekler {
     display: flex;
     flex-direction: column;
@@ -306,7 +314,6 @@
     background-color: var(--koyu-gri);
     font-family: Barlow, sans-serif;
     text-decoration: none;
-    align-items: center;
     padding-left: 50px;
     border-top: solid var(--koyu-gri);
   
@@ -317,6 +324,7 @@
     padding-bottom: 40px;
     color: var(--bej);
   }
+  
 .iletisim {
   text-decoration: none;
   display: flex;
